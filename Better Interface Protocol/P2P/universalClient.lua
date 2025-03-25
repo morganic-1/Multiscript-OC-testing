@@ -81,5 +81,5 @@ until synced == true
 while runtimePhase == 2 do
     receiveData()
     os.sleep(1)
-    sendData(basic, Data)
+    sendData()
 end
